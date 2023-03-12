@@ -10,9 +10,9 @@
 
     <link rel="stylesheet" href="../CSS/estilo.css">
 </head>
-<body>
+<body class="container-fluid">
     <header class="header">
-        
+
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
               <a class="navbar-brand colorNavbar formatoTitulo" href="#">Preguntas Frecuentes</a>
@@ -44,106 +44,104 @@
       
     </header>
 
-    <section class="sueñotitulo">
+    <main class="container"> 
 
-        <h2>Contactanos</h2>
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic"> ¿Quienes somos?</h1>
+          <p class="lead my-3"> Somos un grupo interdisciplinario de psiquiatras y neumonologos y psicologos. Nuestro objetivo es la mayor difusion posible acerca de la importancia vital del sueño en el ciclo vital y poder acercarle herramientas utiles a quienes lo necesiten.
+            A su vez, atendemos consultas particulares y llevamos adelante tratamientos con aquellos pacientes que asi lo requieran.
+          </p>
+       
+        </div> 
 
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
 
-           </section> 
+              <h3> ¿Necesitás ayuda? ¡Contactanos!</h3>
 
-    <section>
-
-        <section class="contactoPadre">
-
-            <section class="contacto virtual">
-                <h3>¡Contactanos!</h3>
-                
-                <form> 
-    
-                    <label for="nombre"></label>
-                    <input id="nombre" type="text" placeholder="Ingrese su nombre" >
-                    <br>
-                
-                    <label for="apellido"></label>
-                    <input id="apellido" type="text" placeholder="Ingrese su apellido" >
-                    <br>
-                
-                    <label for="email"></label>
-                    <input id="email"  type="email" placeholder="Ingrese su email" >
-                    <br>
-                    <br>
-                
-                    <textarea name="text" id="" cols="30" rows="10" placeholder="Deje el motivo de su consulta y lo contactaremos a la brevedad."></textarea>
-                <br>
-                   <input type="submit">
-                   <input type="reset">
-                
-                
-                
-                    
-                
-                 </form>
-            </section>
-
-            <section class="contacto presencial">
-                <h3>¿Preferis consultar de manera presencial?</h3>
-
-             <h4>Nos encontras en Av. Scalabrini Ortiz 155 PB A</h4>
-
-             <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.12415476195!2d-58.4402881!3d-34.6010219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0ccc92d581%3A0x83cce2cafdde991!2sAv.%20Ra%C3%BAl%20Scalabrini%20Ort%C3%ADz%20155%2C%20C1414DNB%20CABA!5e0!3m2!1ses-419!2sar!4v1675532834019!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                  <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su nombre">
+                </div>
+      
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                  <input type="surname" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su apellido">
+                </div>
+      
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su E-mail">
+                  
+                </div> 
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Teléfono</label>
+                  <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su Teléfono">
+                  <div id="emailHelp" class="form-text">Bajo ninguna circunstancia compartiremos ninguno de los datos proporcionados.</div>
+                </div> 
+      
+            
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-secondary"> Borrar</button>
+              </form>
+              
 
 
 
-            </section>
-           
-        
- 
+            </div>
+            <div class="col">
+              
+            <div class="contacto presencial container">
+             
+              <h3>¿Preferis consultar de manera presencial?</h3>
 
-</section>
+           <h4>Nos encontras en Av. Scalabrini Ortiz 155 PB A</h4>
 
+           <iframe class="mapita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.12415476195!2d-58.4402881!3d-34.6010219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0ccc92d581%3A0x83cce2cafdde991!2sAv.%20Ra%C3%BAl%20Scalabrini%20Ort%C3%ADz%20155%2C%20C1414DNB%20CABA!5e0!3m2!1ses-419!2sar!4v1675532834019!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
 
+          
+            </div>
 
- 
-
-<div class="container footerall ms-4 me-5 mt-1">
-    <footer class="py-5 footerall">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Inicio</a></li>
-            <li class="nav-item mb-2"><a href="trastornos.html" class="nav-link p-0 text-muted">Trastornos</a></li>
-            <li class="nav-item mb-2"><a href="recomendaciones.html" class="nav-link p-0 text-muted">Recomendaciones</a></li>
-            <li class="nav-item mb-2"><a href="preguntas.html" class="nav-link p-0 text-muted">Preguntas Frecuentes</a></li>
-            <li class="nav-item mb-2"><a href="contacto.html" class="nav-link p-0 text-muted">Contacto</a></li>
-          </ul>
+              
+            </div>
+          </div>
         </div>
+    
+       
         
 
-    <div class="col-md-5 offset-md-1 mb-3 ms-auto">
-      <form>
-        <h5>Suscribite a nuestro newsletter</h5>
-        <p>Recibirás información mensual sobre nuestros servicios y promociones</p>
-        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-          <label for="newsletter1" class="visually-hidden">Ingresá tu email</label>
-          <input id="newsletter1" type="text" class="form-control" placeholder="Ingresá tu email">
-          <button class="btn btn-primary" type="button">Suscribirse</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-    <p>&copy; 2023. Todos los derechos reservados</p>
     
-    <ul class="list-unstyled d-flex">
-      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-    </ul>
-  </div>
-</footer>
+    
+    
+
+    
+
+      <div class="container-fluid">
+      
+      
+
 </div>
+</main>
+
+ 
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="trastornos.html" class="nav-link px-2 text-muted">Trastornos</a></li>
+      <li class="nav-item"><a href="recomendaciones.html" class="nav-link px-2 text-muted">Recomendaciones</a></li>
+      <li class="nav-item"><a href="preguntas.html" class="nav-link px-2 text-muted">Preguntas</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; Todos los derechos reservados.</p>
+  </footer>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   
